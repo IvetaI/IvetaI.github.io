@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<words>
+		<word>Skri_čiau</word>
+		<correct>s</correct>
+		<wrong>š</wrong>
+		<example>Skri_čiau per kalnus</example>
+	</words>
+	<words>
+		<word>Ank_čiau</word>
+		<correct>s</correct>
+		<wrong>š</wrong>
+		<example>Ank_čiau atvyko</example>
+	</words>
+	<words>
+		<word>Šluo_čiau</word>
+		<correct>s</correct>
+		<wrong>š</wrong>
+		<example>Šluo_čiau rankas</example>
+	</words>
+	<words>
+		<word>Ver_čiau</word>
+		<correct>s</correct>
+		<wrong>š</wrong>
+		<example>Ver_čiau knygos lapus</example>
+	</words>
+	<words>
+		<word>Moke_čiai</word>
+		<correct>s</correct>
+		<wrong>š</wrong>
+		<example>Dideli moke_čiai</example>
+	</words>
+	<words>
+		<word>Pė_čias</word>
+		<correct>s</correct>
+		<wrong>š</wrong>
+		<example>Pė_čias atkeliavo</example>
+	</words>
+	<words>
+		<word>O_kelė</word>
+		<correct>ž</correct>
+		<wrong>z</wrong>
+		<example>O_kelė stryktelėjo</example>
+	</words>
+	<words>
+		<word>Rū_čiai</word>
+		<correct>s</correct>
+		<wrong>š</wrong>
+		<example>Rū_čiai pažvelgė</example>
+	</words>
+	<words>
+		<word>Vab_džiai</word>
+		<correct>z</correct>
+		<wrong>ž</wrong>
+		<example>Skraido vab_džiai</example>
+	</words>
+	<words>
+		<word>Vam_džiai</word>
+		<correct>z</correct>
+		<wrong>ž</wrong>
+		<example>Kiauri vam_džiai</example>
+	</words>
+	<words>
+		<word>Zir_ti</word>
+		<correct>z</correct>
+		<wrong>s</wrong>
+		<example>Nustok zir_ti</example>
+	</words>
+	<words>
+		<word>Skru_džių</word>
+		<correct>z</correct>
+		<wrong>ž</wrong>
+		<example>Skru_džių takeliai</example>
+	</words>
+	<words>
+		<word>Grim_ta</word>
+		<correct>z</correct>
+		<wrong>s</wrong>
+		<example>Grim_ta į pelkę</example>
+	</words>
+	<words>
+		<word>Pavy_džiui</word>
+		<correct>z</correct>
+		<wrong>ž</wrong>
+		<example></example>
+	</words>
+	<words>
+		<word>Meg_ti</word>
+		<correct>z</correct>
+		<wrong>ž</wrong>
+		<example>Meg_ti kojinaites</example>
+	</words>
+	<words>
+		<word>Vai_džiai</word>
+		<correct>z</correct>
+		<wrong>ž</wrong>
+		<example>Vai_džiai pasakoti</example>
+	</words>
+	<words>
+		<word>Atvirk_čias</word>
+		<correct>š</correct>
+		<wrong>s</wrong>
+		<example>Atvirk_čias vaizdas</example>
+	</words>
+	<words>
+		<word>Nu_čiuvo</word>
+		<correct>š</correct>
+		<wrong>s</wrong>
+		<example>Nu_čiuvo keleiviai</example>
+	</words>
+	<words>
+		<word>Be_džionė</word>
+		<correct>ž</correct>
+		<wrong>z</wrong>
+		<example>Be_džionė kabo ant šakos</example>
+	</words>
+	<words>
+		<word>Bai_štus</word>
+		<correct>k</correct>
+		<wrong>g</wrong>
+		<example>Bai_štus kaip kiškis</example>
+	</words>
+</data>

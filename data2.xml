@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+
+	<words>
+	<word id="0" rule_id="0" example_id="0">
+      <text>Ve_ </text>
+      <options>
+        <option correct="1">š</option>
+        <option>ž</option>
+      </options>
+    </word>
+    <word id="1" rule_id="1" example_id="1">
+      <text>Numeg_</text>
+      <options>
+        <option correct="1">s</option>
+        <option>z</option>
+      </options>
+    </word>
+    <word id="2" rule_id="0" example_id="2">
+      <text>Išgrę_</text>
+      <options>
+        <option correct="1">š</option>
+        <option>ž</option>
+      </options>
+    </word>
+    <word id="3" rule_id="0" example_id="3">
+      <text>Lū_</text>
+      <options>
+        <option correct="1">š</option>
+        <option>ž</option>
+      </options>
+    </word>
+    <word id="4" rule_id="1" example_id="4">
+      <text>Dūg_</text>
+      <options>
+        <option correct="1">s</option>
+        <option>z</option>
+      </options>
+    </word>
+	<word id="5" rule_id="2" example_id="5">
+      <text>Au_</text>
+      <options>
+        <option correct="1">k</option>
+        <option>g</option>
+      </options>
+    </word>
+    <word id="6" rule_id="2" example_id="6">
+      <text>Bė_</text>
+      <options>
+        <option correct="1">k</option>
+        <option>g</option>
+      </options>
+    </word>
+    <word id="7" rule_id="2" example_id="7">
+      <text>Žen_</text>
+      <options>
+        <option correct="1">k</option>
+        <option>g</option>
+      </options>
+    </word>
+    <word id="8" rule_id="2" example_id="8">
+      <text>Įjun_</text>
+      <options>
+        <option correct="1">k</option>
+        <option>g</option>
+      </options>
+    </word>
+    <word id="9" rule_id="3" example_id="9">
+      <text>Pu_eserė</text>
+      <options>
+        <option correct="1">ss</option>
+        <option>s</option>
+      </options>
+    </word>
+    <word id="10" rule_id="4" example_id="10">
+      <text>Pu_unkis</text>
+      <options>
+        <option correct="1">ss</option>
+        <option>s</option>
+      </options>
+    </word>
+    <word id="11" rule_id="5">
+      <text>Pu_toris</text>
+      <options>
+        <option correct="1">ss</option>
+        <option>s</option>
+      </options>
+    </word>
+    <word id="12" rule_id="6" example_id="12">
+      <text>Penki_yk</text>
+      <options>
+        <option correct="1">ss</option>
+        <option>s</option>
+      </options>
+    </word>
+    <word id="13" rule_id="7">
+      <text>Šva_aštis</text>
+      <options>
+        <option correct="1">rr</option>
+        <option>r</option>
+      </options>
+    </word>
+    <word id="14" rule_id="8" example_id="14">
+      <text>Me_kotis</text>
+      <options>
+        <option correct="1">d</option>
+        <option>t</option>
+      </options>
+    </word>
+    <word id="15" rule_id="9" example_id="15">
+      <text>Šla_driba</text>
+      <options>
+        <option correct="1">p</option>
+        <option>b</option>
+      </options>
+    </word>
+    <word id="16" rule_id="10" example_id="16">
+      <text>Me_kirtys</text>
+      <options>
+        <option correct="1">d</option>
+        <option>t</option>
+      </options>
+    </word>
+    <word id="17" rule_id="11" example_id="17">
+      <text>Žū_būtinis</text>
+      <options>
+        <option correct="1">t</option>
+        <option>d</option>
+      </options>
+    </word>
+    <word id="18" rule_id="12" example_id="18">
+      <text>Sau_gyslė</text>
+      <options>
+        <option correct="1">s</option>
+        <option>z</option>
+      </options>
+    </word>
+    <word id="19" rule_id="13" example_id="19">
+      <text>Tri_yk</text>
+      <options>
+        <option correct="1">ss</option>
+        <option>s</option>
+      </options>
+    </word>
+	</words>
+  
+	<rules>
+		<rule id="0"><![CDATA[Sudarant veiksmažodžio būsimąjį laiką, bendraties kamieno priebalsis <b>ž</b> susiduria su priesaga <b>-s</b>, pakinta į <b>š</b> ir žymimas šia priebalse]]></rule>
+		<rule id="1"><![CDATA[Sudarant veiksmažodžio būsimąjį laiką, bendraties kamieno priebalsis <b>z</b> susiduria su priesaga <b>-s</b>, pakinta į <b>s</b> ir žymimas šia priebalse]]></rule>
+		<rule id="2"><![CDATA[Sudarant liepiamąją nuosaką, bendraties kamiengalio priebalsis <b>g</b>, susidūręs su priesaga <b>-k</b>, pakinta į <b>k</b> ir žymimas šia priebalse]]></rule>
+		<rule id="3"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>pusė</b> ir <b>sesers</b> (priebalsių susiliejimas)]]></rule>
+		<rule id="4"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>pusė</b> ir <b>sunkaus</b> (priebalsių susiliejimas)]]></rule>
+		<rule id="5"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>pusė</b> ir <b>storo</b> (priebalsių susiliejimas)]]></rule>
+		<rule id="6"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>penkis</b> ir <b>sykius</b> (priebalsių susiliejimas)]]></rule>
+		<rule id="7"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>švarus</b> ir <b>raštas</b> (priebalsių susiliejimas)]]></rule>
+		<rule id="8"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>medis</b> ir <b>kotas</b> (priebalsių supanašėjimas)]]></rule>
+		<rule id="9"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>šlapias</b> ir <b>dribo</b> (priebalsių supanašėjimas)]]></rule>
+		<rule id="10"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>medis</b> ir <b>kirto</b> (priebalsių supanašėjimas)]]></rule>
+		<rule id="11"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>žūti</b> ir <b>būti</b> (priebalsių supanašėjimas)]]></rule>
+		<rule id="12"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>sausa</b> ir <b>gysla</b> (priebalsių supanašėjimas)]]></rule>
+		<rule id="13"><![CDATA[Sudurtinis žodis, sudarytas iš dviejų žodžių – <b>tris</b> ir <b>sykius</b> (priebalsių susiliejimas)]]></rule>
+	</rules>
+	
+	<examples>
+		<example id="0">Ve_ šieną</example>
+		<example id="1">Numeg_ šaliką</example>
+		<example id="2">Išgrę_ eketę</example>
+		<example id="3">Lū_ medžiai</example>
+		<example id="4">Dūg_ bitutės</example>
+		<example id="5">Au_ didelis</example>
+		<example id="6">Bė_ tolyn</example>
+		<example id="7">Žen_ tvirčiau</example>
+		<example id="8">Įjun_ šviesą</example>
+		<example id="9">Pu_eserė sugrįžo</example>
+		<example id="10">Pu_unkis maišas</example>
+		<example id="12">Penki_yk pamatuok</example>
+		<example id="14">Me_kotis įskilo</example>
+		<example id="15">Šla_driba užklupo</example>
+		<example id="16">Me_kirtys stipruolis</example>
+		<example id="17">Žū_būtinis mūšis</example>
+		<example id="18">Sau_gyslė sugijo</example>
+		<example id="19">Tri_yk kopė į kalną</example>
+	</examples>
+		
+</data>
