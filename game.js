@@ -48,9 +48,8 @@ var Game = {
         {
             if(this.readyState == 4 && this.status == 200)
            { 
-            console.log(this.responseText);
                // convertuojam json i array
-             var data = this.responseText;
+             var data = JSON.parse(this.responseText);
              console.log(data);
 
              //Žaidimas
