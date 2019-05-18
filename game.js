@@ -26,14 +26,14 @@ var Game = {
     },
     
     show:function(){
-    	document.getElementById("clue").style.visibility = "visible";
+      document.getElementById("clue").style.visibility = "visible";
         document.getElementById("words").style.visibility = "visible";
         document.getElementById("correct").style.visibility = "visible";
         document.getElementById("wrong").style.visibility = "visible";
         document.getElementById("do").style.visibility = "visible";
     },
     ajax: function()
-    {	
+    { 
         var ajax = new XMLHttpRequest();
         var method = "GET";
         var url = "get.php";
@@ -43,17 +43,19 @@ var Game = {
         // siunčiam ajax užklausa
         ajax.send();
         //gauname atsakymą
+       
         ajax.onreadystatechange = function()
         {
             if(this.readyState == 4 && this.status == 200)
            { 
+            console.log(this.responseText);
                // convertuojam json i array
              var data = JSON.parse(this.responseText);
              console.log(data);
 
              //Žaidimas
               
-              var i = 5; 
+              var i = 1; 
               var word = data[i].word;
               document.getElementById("words").innerHTML = word;
               // jei pavyzdį paspaudžia
