@@ -50,7 +50,7 @@ var Game = {
            { 
             console.log(this.responseText);
                // convertuojam json i array
-             var data = JSON.parse(this.responseText);
+             var data = this.responseText;
              console.log(data);
 
              //Žaidimas
