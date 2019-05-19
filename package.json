@@ -1,0 +1,22 @@
+{
+  "name": "ivetai.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvetaI/IvetaI.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvetaI/IvetaI.github.io/issues"
+  },
+  "homepage": "https://github.com/IvetaI/IvetaI.github.io#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
