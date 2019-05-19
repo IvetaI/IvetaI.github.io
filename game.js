@@ -36,7 +36,7 @@ var Game = {
     { 
         var ajax = new XMLHttpRequest();
         var method = "GET";
-        var url = "get.php";
+        var url = "app.js";
         var asynchronous = true;
 
         ajax.open(method, url, asynchronous); 
