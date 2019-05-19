@@ -1,4 +1,4 @@
-require( ['mysql'], function( mysql ) {
+var require( ['mysql'], function( mysql ) {
   var con =  mysql.createConnection({
                       host: 'sql7.freesqldatabase.com',
                       user: 'sql7291651',
