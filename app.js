@@ -1,5 +1,5 @@
 // app.js
-const mysql = require('mysql');
+const mysql = requirejs('mysql');
 
 // First you need to create a connection to the db
 var con = mysql.createConnection({
