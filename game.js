@@ -26,17 +26,17 @@ var Game = {
     },
     
     show:function(){
-      document.getElementById("clue").style.visibility = "visible";
+    	document.getElementById("clue").style.visibility = "visible";
         document.getElementById("words").style.visibility = "visible";
         document.getElementById("correct").style.visibility = "visible";
         document.getElementById("wrong").style.visibility = "visible";
         document.getElementById("do").style.visibility = "visible";
     },
     ajax: function()
-    { 
+    {	
         var ajax = new XMLHttpRequest();
         var method = "GET";
-        var url = "app.js";
+        var url = "get.php";
         var asynchronous = true;
 
         ajax.open(method, url, asynchronous); 
