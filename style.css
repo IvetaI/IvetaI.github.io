@@ -1,44 +1,44 @@
-button{
-    font-family: Comic Sans MS;
-    font-size: 35px;
-    color: #111;
-    background-color: inherit;
-    position: absolute;
+body{
+  width: 800px;
+    height: 600px;
+    margin: 0 auto;
     border: none;
-    cursor: pointer;
-    left : 418px;
-    top: 73px;
+    position: relative;
 }
-#words {
-	font-family: Comic Sans MS;
-    font-size: 50px;
-    color: #111;
-    background-color: inherit;
-    position: absolute;
+#my-game {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
     border: none;
-    cursor: pointer;
-    left : 380px;
-    top: 170px;	
 }
 
-#wrong
-{
+#clue{
     font-family: Comic Sans MS;
-    font-size: 50px;
+    font-size: 30px;
     color: #111;
     background-color: inherit;
     position: absolute;
-    padding: 7px;
-    border: inset;
-    border-width: 6px;
-    border-color : red;
-    border-radius: 5px;
+    border: none;
     cursor: pointer;
-    left : 380px;
-    top: 350px; 
-    transform: rotate(-25deg);
+    left : 340px;
+    top: 47px;
 }
-#correct
+
+#words {
+    font-family: Comic Sans MS;
+    font-size: 50px;
+    color: #111;
+    background-color: inherit;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    left : 300px;
+    top: 140px; 
+    align-items: center;
+}
+
+#word1
 {
     font-family: Comic Sans MS;
     font-size: 50px;
@@ -51,8 +51,26 @@ button{
     border-color : red;
     border-radius: 5px;
     cursor: pointer;
-    left : 550px;
-    top: 350px; 
+    left : 300px;
+    top: 240px; 
+    transform: rotate(-25deg);
+
+}
+#word2
+{
+    font-family: Comic Sans MS;
+    font-size: 50px;
+    color: #111;
+    background-color: inherit;
+    position: absolute;
+    padding: 7px;
+    border: inset;
+    border-width: 6px;
+    border-color : red;
+    border-radius: 5px;
+    cursor: pointer;
+    left : 480px;
+    top: 240px; 
     transform: rotate(25deg);
 }
 #do
@@ -64,6 +82,137 @@ button{
     position: absolute;
     border: none;
     cursor: pointer;
-    left : 290px;
-    top: 260px; 
+    left : 190px;
+    top: 170px; 
+}
+/* The Modal (background) */
+.modal {
+  font-family: Comic Sans MS;
+  display: none; 
+  position: absolute; 
+  z-index: 1; 
+  padding-top: 200px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content */
+.modal-content {
+  position: absolute;
+  left: 25%;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 55%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  text-align: center;
+  font-size: 28px;
+}
+
+
+/*Login*/
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.login {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+.login h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+  margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+  background-color: #2868c7;
+    transition: background-color 0.2s;
 }

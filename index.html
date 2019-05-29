@@ -3,16 +3,22 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="phaser.min.js"></script>
-	<script src="menu.js"></script>
-	<script src="game.js"></script>
-	<script src="main.js"></script>
 </head>
+
 <body>
-	<button id="clue" class ="clue" style="visibility:hidden;">Pavyzdys</button>
-	<p id="words" style="visibility: hidden;"></p>
-	<p id="do" style="visibility: hidden;">Pasirinkite tinkančią raidę</p>
-	<p id="correct" style="visibility: hidden;"></p>
-	<p id="wrong" style="visibility: hidden;"></p>
+	<div class="login">
+			<h1>Prašome prisijungti</h1>
+			<form action="authenticate.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Vardas" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Slaptažodis" id="password" required>
+				<input type="submit" value="Prisijungti">
+			</form>
+		</div>
 </body>
 </html>

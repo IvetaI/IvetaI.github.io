@@ -12,7 +12,7 @@ $dbName = "sql7293864";
 $con = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 
-$result = mysqli_query($con,"SELECT * FROM bandymas");
+$result = mysqli_query($con,"SELECT * FROM Users ORDER BY scores DESC, name ASC");
 
 $data = array();
 while($row = mysqli_fetch_assoc($result))
@@ -24,4 +24,3 @@ echo json_encode($data);
 $result->close();
 mysqli_close($con);
 ?>
-
