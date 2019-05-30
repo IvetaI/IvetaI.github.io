@@ -1,4 +1,4 @@
-var score, word1, word2, scoreTextValue, random, data, correct, wrong, word, example, i ; 
+var score, word1, word2, scoreTextValue, random, data, correct, wrong, word, example, i, used ; 
 var Game = {
 
      preload : function() {
@@ -19,6 +19,8 @@ var Game = {
 
         //Taskai
         random = 0;
+        used=[];
+        used.push(random);
         var textStyle_Key = { font: "50px Comic Sans MS", fill: "#FF0000", align: "center" };
         var textStyle_Value = { font: "50px Comic Sans MS", fill: "#000", align: "center" };
         game.add.text(260, 450, "TAŠKAI: ", textStyle_Key);
@@ -29,9 +31,12 @@ var Game = {
     update: function()
     {    
       this.show();
+
       if(i < 10){
           var size = data.length;
+        
           word = data[random].word;
+          
           document.getElementById("words").innerHTML = word;
 
           correct = data[random].correct;
@@ -52,31 +57,32 @@ var Game = {
             if(document.getElementById("word1").innerHTML == correct) {
                 score++;
                 scoreTextValue.text = score.toString(); 
-                i++;
-                random = Math.floor((Math.random() * size ) + 0);
+
+                
             }
             else{
-              i++;
                 document.getElementById("name").innerHTML = "Neteisingai";
                 document.getElementById("text").innerHTML = word + "<br>" + "Teisingas variantas: " + correct;
-                modal();
-                random = Math.floor((Math.random() * size ) + 0);
+                modal();         
             }
+             random = Math.floor((Math.random() * size ) + 0);
+                check();
+                i++;
           }
           document.getElementById("word2").onclick = function() {
             if(document.getElementById("word2").innerHTML == correct) {
                 score++;
-                scoreTextValue.text = score.toString(); 
-                i++;
-                random = Math.floor((Math.random() * size ) + 0);
+                scoreTextValue.text = score.toString();             
             }
             else{
-                i++;
                 document.getElementById("name").innerHTML = "Neteisingai";
                 document.getElementById("text").innerHTML = word + "<br>" + "Teisingas variantas: " + correct;
-                modal();
-                random = Math.floor((Math.random() * size ) + 0);
+               modal();
+               
             }
+             random = Math.floor((Math.random() * size ) + 0);
+                check();
+                i++;
           }
 
           example = data[random].example;
@@ -113,7 +119,7 @@ var Game = {
         this.onclick();
       }
     },
-
+ 
     onclick: function()
     {
         game.state.start('Menu');
@@ -149,6 +155,7 @@ var Game = {
           if(this.readyState == 4 && this.status == 200)
            { 
             data = JSON.parse(this.responseText);
+            console.log(data);
            }
         };
         ajax.open(method, url, asynchronous);
@@ -164,4 +171,13 @@ function modal()
                   {
                     modal.style.display = "none";
                   }
+}
+function check(){
+    	  var size = data.length;
+    	  	while(used.includes(random))
+    	  	{
+    	  		random = Math.floor((Math.random() * size ) + 0);
+    	  	}
+    	  	used.push(random);
+	  	
 }
